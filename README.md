@@ -1,4 +1,6 @@
 # terraform-google-vm
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fboeyeb%2Fterraform-google-vm.svg?type=shield)](https://app.fossa.com/projects/git%2Bgithub.com%2Fboeyeb%2Fterraform-google-vm?ref=badge_shield)
+
 
 This is a collection of opinionated submodules that can be used as building blocks to provision VMs in GCP:
 
@@ -67,3 +69,7 @@ bundle exec kitchen destroy mig-autoscaler
 The service account used to execute tests for this module should have the following roles:
 - [`roles/compute.admin`](https://cloud.google.com/iam/docs/understanding-roles#compute-engine-roles)
 - [`roles/iam.serviceAccountUser`](https://cloud.google.com/iam/docs/understanding-roles#service-accounts-roles)
+
+
+## License
+[![FOSSA Status](https://app.fossa.com/api/projects/git%2Bgithub.com%2Fboeyeb%2Fterraform-google-vm.svg?type=large)](https://app.fossa.com/projects/git%2Bgithub.com%2Fboeyeb%2Fterraform-google-vm?ref=badge_large)
